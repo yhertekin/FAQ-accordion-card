@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<link rel="stylesheet" href="style.css" />
+
+		<title>Frontend Mentor | FAQ Accordion Card</title>
+
+		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+		<style>
+			.attribution {
+				font-size: 11px;
+				text-align: center;
+			}
+			.attribution a {
+				color: hsl(228, 45%, 44%);
+			}
+		</style>
+	</head>
+	<body>
+		<div class="main">
+			<div class="image">
+				<div class="image-overflow">
+					<img
+						src="./images/bg-pattern-desktop.svg"
+						alt=""
+						class="bg-pattern-desktop"
+					/>
+					<img
+						src="./images/illustration-woman-online-desktop.svg"
+						class="woman-desktop"
+						alt=""
+					/>
+				</div>
+				<img
+					src="./images/illustration-box-desktop.svg"
+					class="box-desktop"
+					alt=""
+				/>
+				<img
+					src="./images/illustration-woman-online-mobile.svg"
+					class="mobile-desktop"
+					alt=""
+				/>
+				<img
+					src="./images/bg-pattern-mobile.svg"
+					class="bg-pattern-mobile"
+					alt=""
+				/>
+			</div>
+			<div class="content">
+				<h1>FAQ</h1>
+
+				<ul class="section">
+					<li class="question" id="item-1" onclick="buttonHandler()">
+						<div class="question-text">
+							<p id="question-1">How many team members can I invite?</p>
+							<!-- <button onclick="buttonHandler()">x</button> -->
+							<img
+								src="./images/icon-arrow-down.svg"
+								class="arrow"
+								id="arrow-1"
+							/>
+						</div>
+						<div class="answer" id="answer-1">
+							You can invite up to 2 additional users on the Free plan. There is
+							no limit on team members for the Premium plan.
+						</div>
+					</li>
+					<li class="question" id="item-2" onclick="buttonHandler()">
+						<div class="question-text">
+							<p id="question-2">What is the maximum file upload size?</p>
+							<img
+								src="./images/icon-arrow-down.svg"
+								class="arrow"
+								id="arrow-2"
+							/>
+						</div>
+						<div class="answer" id="answer-2">
+							No more than 2GB. All files in your account must fit your allotted
+							storage space.
+						</div>
+					</li>
+					<li class="question" id="item-3" onclick="buttonHandler()">
+						<div class="question-text">
+							<p id="question-3">How do I reset my password?</p>
+							<img
+								src="./images/icon-arrow-down.svg"
+								class="arrow"
+								id="arrow-3"
+							/>
+						</div>
+						<div class="answer" id="answer-3">
+							Click “Forgot password” from the login page or “Change password”
+							from your profile page. A reset link will be emailed to you.
+						</div>
+					</li>
+					<li class="question" id="item-4" onclick="buttonHandler()">
+						<div class="question-text">
+							<p id="question-4">Can I cancel my subscription?</p>
+							<img
+								src="./images/icon-arrow-down.svg"
+								class="arrow"
+								id="arrow-4"
+							/>
+						</div>
+						<div class="answer" id="answer-4">
+							Yes! Send us a message and we’ll process your request no questions
+							asked.
+						</div>
+					</li>
+					<li class="question" id="item-5" onclick="buttonHandler()">
+						<div class="question-text">
+							<p id="question-5">Do you provide additional support?</p>
+							<img
+								src="./images/icon-arrow-down.svg"
+								class="arrow"
+								id="arrow-5"
+							/>
+						</div>
+						<div class="answer" id="answer-5">
+							Chat and email support is available 24/7. Phone lines are open
+							during normal business hours.
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="attribution">
+			Challenge by
+			<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+				>Frontend Mentor</a
+			>. Coded by <a href="#">yhertekin</a>.
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>
