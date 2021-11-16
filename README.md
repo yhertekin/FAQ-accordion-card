@@ -1,4 +1,4 @@
-# FAQ accordion card - [Live]()
+# FAQ accordion card - [Live](https://yhertekin.github.io/FAQ-accordion-card/)
 
 ## Desktop
 
